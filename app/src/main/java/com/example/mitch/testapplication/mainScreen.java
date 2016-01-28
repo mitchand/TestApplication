@@ -8,8 +8,22 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.TextView;
 
 public class mainScreen extends AppCompatActivity {
+
+
+    public void showHiddenText(View v ){
+
+        TextView t = (TextView) findViewById(R.id.textView);
+
+        Button button = (Button) v;
+        ((Button) v).setText("Hello");
+
+        t.setText("Rover is my pal");
+
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
