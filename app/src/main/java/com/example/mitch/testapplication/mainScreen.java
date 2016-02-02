@@ -21,7 +21,7 @@ public class mainScreen extends AppCompatActivity {
         Button button = (Button) v;
         ((Button) v).setText("Hello");
 
-        t.setText("Rover is my pal");
+        t.setText("Rover is my pal and he speaks Chinese");
 
     }
 
